@@ -1,0 +1,100 @@
+------------------------------------------------------------
+PROJECT REPORT
+------------------------------------------------------------
+Course Code: CSEG1032
+Course Title: Programming in C
+Project Title: Restaurant Order Management System
+Student Names: Manraj Talwar
+Sap Id: 590023781 
+Semester: 1st
+------------------------------------------------------------
+
+1. ABSTRACT 
+This project is a menu-driven Restaurant Order Management System developed in C programming language. 
+It allows the user to add customer orders with table number, item name, quantity, and price. 
+The system supports displaying all orders, generating bills for individual tables, and deleting orders.
+The program demonstrates usage of structures, arrays, functions, and basic input/output operations 
+to provide a simple, efficient solution for managing restaurant orders. 
+
+------------------------------------------------------------
+
+2. OBJECTIVE
+The objective of this project is to implement a functional Restaurant Order Management System 
+using fundamental C programming concepts. This includes:
+- Using structures to model order details.
+- Applying arrays for managing multiple orders.
+- Implementing functions for modular design.
+- Using console input/output for user interaction.
+- Enabling basic operations like add, display, bill generation, and deletion of orders.
+
+------------------------------------------------------------
+
+3. PROBLEM DEFINITION
+Managing orders manually in a restaurant can be confusing and prone to errors.
+This project aims to create a simple computer program to record and track customer orders,
+make billing easy and accurate, and reduce management overhead.
+This system ensures efficient handling of multiple orders across different tables with clear visibility.
+
+------------------------------------------------------------
+
+4. SYSTEM DESIGN AND ALGORITHM
+
+System Design:
+- The program uses a structure named 'Order' to store individual order information.
+- A fixed-size array holds all current orders (up to 100).
+- Menu-driven interface allows the user to perform various operations.
+
+Algorithm Highlights:
+
+Add Order:
+1. Check if maximum order count (100) reached.
+2. Take input: table number, item name, quantity, price.
+3. Store input as a new order in the array.
+4. Increment order count.
+
+Display Orders:
+1. If no orders, display "No orders".
+2. Loop through orders array and display each order’s details and price total.
+
+Generate Bill:
+1. Ask for table number.
+2. Loop through orders to find matching table.
+3. Calculate and display total cost for that table.
+
+Delete Orders:
+1. Ask for table number to delete.
+2. Shift array elements to remove orders for given table.
+3. Adjust order count.
+
+------------------------------------------------------------
+
+5. IMPLEMENTATION DETAILS
+
+Key features and code components used in this project:
+
+1. Structure declaration with fixed-size character array for item names.
+2. Functions: addOrder(), displayOrders(), generateBill(), and deleteOrders() for modularity.
+3. User input handled via scanf, output via printf.
+4. Boundary checks to prevent overflows. 
+
+6. TESTING AND RESULTS
+
+1. Tested adding multiple orders for several tables.
+2. Verified correct display of orders and calculated totals.
+3. Confirmed bill generation accuracy per table.
+4. Successfully deleted orders and updated order count.
+5. Program handled edge cases, including empty lists and max capacity.
+
+7. CONCLUSION AND FUTURE WORK
+
+The project demonstrates how to manage and bill restaurant orders using basic C programming. It is user-friendly, reliable, and scalable to limited order volumes. Future improvements include persistent file storage, GUI interface, and multi-user support.
+
+8. REFERENCES
+
+1. Programming in C, Dennis Ritchie.
+2. Online tutorials on C structures and I/O.
+3. University syllabus and project guidelines.
+
+9. ACKNOWLEDGEMNET
+
+Thanks to Dr. Srinivasan Ramachandran for valuable guidance, the Computer Science Department for support, and my family for encouragement.
