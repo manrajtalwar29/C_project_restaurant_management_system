@@ -1,3 +1,5 @@
+SAPID:590023781
+---
 * Project Summary: Restaurant Order Management System (C Language)
 
 The Restaurant Order Management System is a menu-driven C program designed to help restaurants efficiently record, manage, and process customer orders. It allows users to add new orders, view all existing orders, generate detailed bills for specific tables, and delete orders once completed. The system stores all order information—such as table number, item name, quantity, and price—in a structured format using arrays and user-defined structures.
@@ -140,3 +142,4 @@ Summation (bill calculation)
 
 Deletion (shifting array elements)
 ---------------------------------------------------------------------------------------
+
